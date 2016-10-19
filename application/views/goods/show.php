@@ -49,130 +49,16 @@ body{min-width: 320px;max-width: 640px;margin: 0 auto;padding-bottom: 80px;backg
 .detail-column { border-bottom: 1px solid #eee; background-color: #fff;margin: 12px 0 0 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
 .detail-show{box-sizing: border-box;display: block;padding: 10px 10px 5px 10px;}
 .detail-show img{width: 100%;display: table-cell;}
-
-
-
-.kt {
-    position: fixed;
-    width: 100%;
-    max-width: 640px;
-    z-index: 8888;
-    padding: 0;
-    bottom: 0;
-    background-color: #fff;
-    height: 50px;
- }
-.kt_index, .kt_like {
-    width: 12.5%;
-    height: 42px;
-    margin-top: 3px;
-    position: relative;
-    float: left;
-    display: inline-block;
-    border-right: 1px solid #e1e1e1;
-}
-.kt_index_img {
-    background-size: contain;
-    height: 20px;
-    width: 20px;
-    border: 0;
-    margin: 5px auto 0;
-}
-.kt_index_img img {max-width: 100%;}
-.kt_index_text {
-    font-size: 10px;
-    color: #666;
-    display: block;
-    text-align: center;
-    margin-top: 2px;
-}
-.kt_index_img_bg {
-    position: relative;
-    left: -1px;
-    height: 21px;
-    width: 22px;
-    background-image: url(http://cdn.yangkeduo.com/assets/img/bg_v7-01cae6a9c5.png);
-    background-repeat: no-repeat;
-    background-size: 186px 108px;
-    background-position: -135px -21px;
-}
-.kt_message {
-    width: 12.5%;
-    float: left;
-    height: 42px;
-    margin-top: 3px;
-    position: relative;
-    display: inline-block;
-}
-.can_contact {
-    background-position: -132.5px 0;
-}
-.kt_message_img {
-    height: 22px;
-    width: 22px;
-    border: 0;
-    margin: 5px auto 0;
-    background-image: url(http://cdn.yangkeduo.com/assets/img/bg_v7-01cae6a9c5.png);
-    background-repeat: no-repeat;
-    background-size: 155px 90px;
-}
-.kt_message_text {
-    font-size: 10px;
-    color: #666;
-    display: block;
-    text-align: center;
-}
-.kt_item {
-	font-size: .14rem;
-    background-color: #ff498c;
-    color: #fe243d;
-    float: right;
-    width: 36%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
-.kt_item_buy.out {
-    background: #ccc!important;
-}
-.kt .out, .kt .out b {
-    color: #fff!important;
-}
-.kt_item_buy {
-    width: 26%;
-    font-size: .14rem;
-}
-.kt_item_buy b {
-    font-weight: 400;
-    color: #fff;
-    line-height: 20px;
-    height: 20px;
-}
-.kt_price {
-    text-align: center;
-    margin-top: 5px;
-    height: 22px;
-    line-height: 22px;
-}
-.kt_price b, .kt_price span {
-    font-weight: 400;
-    margin-top: 2px;
-}
-.kt_price span {
-    color: #fff;
-}
-.kt_btn, .kt_btn:before {
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
-.kt_btn {
-    bottom: 2px;
-    height: 23px;
-    line-height: 23px;
-    color: #fff;
-}
+/*底部*/
+.footNav{ position: fixed;bottom:0;left:0; width: 100%; height: 46px;background-color: #fff; z-index:99;display:-webkit-box;}
+.footNav .a5{ line-height: 46px;font-size:16px;color:#fff;background-color: #ff498c; width:30%; text-align: center;display:block;-webkit-box-flex:1}
+.footNav .navd2{min-width: 40%;border-top: 1px solid #dcdcdc; display:-moz-box;display:-webkit-box;display:box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-box-flex: 1;}
+.footNav div a{border-right:1px solid #d6d6d6;padding-top:3px; height:46px; overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;width:100%;font-size:13px; display:block;text-align: center; }
+.footNav div a:last-of-type{border: none;}
+.footNav a i{background:url(http://sale.120.net/static/images/footnavIcon.png) no-repeat;background-size:20px 40px;-webkit-background-size:20px 40px;-moz-background-size:20px 40px;width: 20px; height: 20px; display: block;margin: 0 auto;}
+.footNav div .a1 i{ background-position: 0 3px;}
+.footNav div .a2 i{position:relative;background-position: 0 -21px;}
+.footNav div .a2 em{ position: absolute;top:0;right:-9px;background-color: #f45f48;border-radius: 7px;height:12px; line-height: 12px;padding:0 3px;color:#fff;font-size:10px;}
 </style>
 </head>
 <body>
@@ -234,40 +120,15 @@ body{min-width: 320px;max-width: 640px;margin: 0 auto;padding-bottom: 80px;backg
         </div>
     </div>
 
-
-    <div class="kt">
-        <a class="kt_index">
-            <div class="kt_index_img">
-                <img src="http://cdn.yangkeduo.com/assets/img/index-38d3d45c2c.png">
-            </div>
-            <div class="kt_index_text">首页</div>
-        </a>
-        <a class="kt_like">
-            <div class="kt_index_img">
-                <div class="kt_index_img_bg"></div>
-            </div>
-            <div class="kt_index_text">分享</div>
-        </a>
-        <a class="kt_message">
-            <div class="kt_message_img can_contact"></div>
-            <div class="kt_message_text">客服</div>
-        </a>   
-        <a class="kt_item">
-            <div class="kt_price">
-                <span>￥0.1</span>
-            </div>
-            <div class="kt_btn">
-                <b>10人团</b>
-            </div>
-        </a>
-        <a class="kt_item kt_item_buy out">
-            <div class="kt_price">
-                <b id="tuan_one_price">￥<?=sprintf("%.1f", 99.0)?></b>
-            </div>
-            <div class="kt_btn" id="tuan_one_number">立即购买</div>
-        </a>
-    </div>              
-
+    <div class="footNav">
+        <div class="navd2">
+            <a class="a1 xnkf" href="javascript:void(0)"><i></i>客服</a>
+            <a class="a2" href="javascript:void(0)"><i><em>1</em></i>购物车</a>
+        </div>
+        
+        <a class="a5 buy-Btn" href="javascript:;" style="background-color: #ccc;">加入购物车</a>
+        <a class="a5" href="javascript:void(0)">立即购买</a>
+    </div>
 </div>
 
 </body>

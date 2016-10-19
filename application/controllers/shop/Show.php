@@ -16,4 +16,14 @@ class Show extends Base_Controller {
         $list = $this->Model_goods->lists([], 0, 5);
         $this->load->view('shop/show', ['list'=>$list]);
     }
+
+    /**
+     * 分类
+     */
+    public function category(){
+        
+        $this->load->view('shop/category');
+    }
+
+
 }

@@ -23,8 +23,8 @@ class Model_goods extends CI_Model{
     /**
      * list
      */
-    public function lists($where, $offset=0, $limit=5){
-        $this->db->from(self::TABLE);
+    public function lists($where, $offset=0, $limit=5, $select='*'){
+        $this->db->select($select)->from(self::TABLE);
         if(! empty($where)){
             $this->db->where($where);
         }
