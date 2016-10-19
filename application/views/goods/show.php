@@ -45,7 +45,7 @@ body{min-width: 320px;max-width: 640px;margin: 0 auto;padding-bottom: 80px;backg
 .like-wrapper .like-goods-price { color: #FF498C;}
 /*详情*/
 .detail-header {display: block;margin: 0 12px;border-top: 1px solid #ddd; margin-top: 25px;}
-.detail-header em {display: block;width: 120px; text-align: center;height: 16px; font-size: 14px;line-height: 16px; background-color: #F5F5F5;margin: -9px auto 0;font-style: normal;color: #777;}
+.detail-header em {display: block;width: 120px; text-align: center;height: 16px; font-size: 14px;line-height: 16px; background-color: #F5F5F5;margin: -9px auto 0;font-style: normal;color: #ff498c;}
 .detail-column { border-bottom: 1px solid #eee; background-color: #fff;margin: 12px 0 0 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
 .detail-show{box-sizing: border-box;display: block;padding: 10px 10px 5px 10px;}
 .detail-show img{width: 100%;display: table-cell;}
@@ -235,7 +235,7 @@ body{min-width: 320px;max-width: 640px;margin: 0 auto;padding-bottom: 80px;backg
     </div>
 
 
-    <!--div class="kt">
+    <div class="kt">
         <a class="kt_index">
             <div class="kt_index_img">
                 <img src="http://cdn.yangkeduo.com/assets/img/index-38d3d45c2c.png">
@@ -246,7 +246,7 @@ body{min-width: 320px;max-width: 640px;margin: 0 auto;padding-bottom: 80px;backg
             <div class="kt_index_img">
                 <div class="kt_index_img_bg"></div>
             </div>
-            <div class="kt_index_text">收藏</div>
+            <div class="kt_index_text">分享</div>
         </a>
         <a class="kt_message">
             <div class="kt_message_img can_contact"></div>
@@ -266,7 +266,7 @@ body{min-width: 320px;max-width: 640px;margin: 0 auto;padding-bottom: 80px;backg
             </div>
             <div class="kt_btn" id="tuan_one_number">立即购买</div>
         </a>
-    </div-->               
+    </div>              
 
 </div>
 
